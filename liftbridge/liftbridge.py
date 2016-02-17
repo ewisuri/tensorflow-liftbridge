@@ -30,7 +30,8 @@ INITIAL_LEARNING_RATE = 0.1       # Initial learning rate.
 
 TOWER_NAME = 'tower'
 
-DATA_URL = 'file:///home/ewisuri/Documents/liftbridge/liftbridge_binary.tar.gz'
+# Update this url if needed
+DATA_URL = 'file:///home/ewisuri/Documents/tensorflow-liftbridge/liftbridge_binary.tar.gz'
 
 
 def _activation_summary(x):
